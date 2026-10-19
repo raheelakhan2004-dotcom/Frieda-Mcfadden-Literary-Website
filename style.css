@@ -1,0 +1,95 @@
+
+/* Basic settings for the whole webpage */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #17151b;
+    color: #f5eee8;
+    line-height: 1.8;
+}
+
+/* The top section of the webpage */
+header {
+    background-color: #2b1822;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 3px solid #a83250;
+}
+
+/* Main title */
+h1 {
+    color: #f0c5cf;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+/* Section headings */
+h2 {
+    color: #e7a1b0;
+    border-bottom: 1px solid #70404f;
+    padding-bottom: 8px;
+}
+
+/* Main content area */
+main {
+    max-width: 900px;
+    margin: 35px auto;
+    padding: 0 25px;
+}
+
+/* Individual sections */
+section {
+    background-color: #221e26;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 1px solid #44323d;
+}
+
+/* Book list */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Website links */
+a {
+    color: #f0a9bb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Bottom section */
+footer {
+    text-align: center;
+    background-color: #2b1822;
+    color: #d8c5cd;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Adjust the design for small screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    main {
+        padding: 0 15px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
