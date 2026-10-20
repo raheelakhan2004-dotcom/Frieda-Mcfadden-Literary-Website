@@ -76,7 +76,141 @@
     <footer>
         <p>Created for a literary website assignment.</p>
     </footer>
+<footer class="site-footer">
+  <div class="footer-content">
 
+    <div class="footer-brand">
+      <h2>FREIDA McFADDEN</h2>
+      <p>Every story hides a secret.</p>
+      <p class="footer-description">
+        Step into a world of psychological thrillers,
+        unexpected twists, and secrets waiting to be revealed.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h3>EXPLORE</h3>
+      <a href="#home">Home</a>
+      <a href="#about">About the Author</a>
+      <a href="#books">Books & Novels</a>
+      <a href="#popular">Popular Thrillers</a>
+    </div>
+
+    <div class="footer-links">
+      <h3>DISCOVER</h3>
+      <a href="#reading-order">Reading Order</a>
+      <a href="#reviews">Reader Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="https://www.freidamcfadden.com/"
+         target="_blank" rel="noopener noreferrer">
+        Official Website ↗️
+      </a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>“Trust no one. Question everything.”</p>
+    <p>
+      © 2026 Freida McFadden Author Website Project.
+      Created for educational purposes.
+    </p>
+    <p class="disclaimer">
+      This is an unofficial educational project and is
+      not affiliated with or endorsed by the author.
+    </p>
+  </div>
+</footer>
+
+<style>
+.site-footer {
+  background: #101014;
+  color: #eee8e8;
+  padding: 55px 8% 20px;
+  font-family: 'Poppins', sans-serif;
+  border-top: 2px solid #791f32;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 45px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-brand h2 {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 3px;
+  color: #f4eeee;
+  font-size: 25px;
+}
+
+.footer-brand p,
+.footer-bottom p {
+  color: #bdb5ba;
+  line-height: 1.8;
+  font-size: 13px;
+}
+
+.footer-brand > p:first-of-type {
+  color: #b85b70;
+  font-style: italic;
+}
+
+.footer-description {
+  max-width: 380px;
+}
+
+.footer-links h3 {
+  color: #c17b8b;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  display: block;
+  text-decoration: none;
+  color: #c9c2c6;
+  margin: 12px 0;
+  font-size: 13px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #e6a0b0;
+}
+
+.footer-bottom {
+  border-top: 1px solid #393035;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.footer-bottom p:first-child {
+  color: #c17b8b;
+  font-family: 'Cinzel', serif;
+  font-style: italic;
+}
+
+.disclaimer {
+  font-size: 11px !important;
+  color: #81777d !important;
+}
+
+@media (max-width: 700px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .site-footer {
+    padding: 35px 7% 18px;
+  }
+}
+</style>
 </body>
 </html>
 
